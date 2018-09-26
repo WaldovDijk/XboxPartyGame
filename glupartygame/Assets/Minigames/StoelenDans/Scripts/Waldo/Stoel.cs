@@ -9,15 +9,17 @@ public class Stoel : MonoBehaviour {
 		
 	}
 	
+	// Update is called once per frame
 	void Update () {
 		
-        
-
 	}
 
-    void OntriggerStay(Collision Player)
+    void OnTriggerStay(Collider Player)
     {
-      
+        if(Player.gameObject.GetComponent<Rigidbody>())
+        {
+            Debug.Log("LOL");
+            Player.gameObject.transform.position = this.gameObject.transform.position;
+        }
     }
-
 }
