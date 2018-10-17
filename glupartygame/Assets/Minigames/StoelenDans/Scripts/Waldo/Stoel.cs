@@ -2,24 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stoel : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    void OnTriggerStay(Collider Player)
+namespace StoelenDans
+{
+    public class Stoel : MonoBehaviour
     {
-        if(Player.gameObject.GetComponent<Rigidbody>())
+
+        // Use this for initialization
+        void Start()
         {
-            Debug.Log("LOL");
-            Player.gameObject.transform.position = this.gameObject.transform.position;
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        void OnTriggerStay(Collider Player)
+        {
+            if (Player.gameObject.GetComponent<Rigidbody>())
+            {
+                Debug.Log("LOL");
+                Player.gameObject.transform.position = this.gameObject.transform.position;
+            }
         }
     }
 }
+
