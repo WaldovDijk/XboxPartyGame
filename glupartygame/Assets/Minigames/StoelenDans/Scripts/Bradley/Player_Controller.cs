@@ -10,22 +10,24 @@ namespace StoelenDans
         private bool m_Player00, m_Player01, m_Player02, m_Player03;
 
         public float m_WalkingSpeed = 10.0f;
-        public float m_TurnSpeed = 240;
+        public float m_TurnSpeed = 10;
 
         private void Update()
         {
             if (m_Player00 == true)
             {
-                //Move and Rotate Player 1
                 float m_AxisX0 = Input.GetAxis("Player0_Horizontal");
                 float m_AxisY0 = Input.GetAxis("Player0_Vertical");
-                //float m_XRight0 = Input.GetAxis("Player0_Horizontal2");
 
-                Vector3 m_Movement = transform.TransformDirection(new Vector3(m_AxisX0 * -1, 0, m_AxisY0) * m_WalkingSpeed * Time.deltaTime);
-                //Vector3 r = (new Vector3(0, m_XRight0, 0) * m_TurnSpeed) * Time.deltaTime;
+                transform.Translate(m_AxisX0 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY0 * Time.deltaTime * m_WalkingSpeed, Space.World);
 
-                //transform.eulerAngles = transform.eulerAngles + r;
-                transform.position = transform.position + m_Movement;
+                float m_RX = Input.GetAxis("Player0_Horizontal2");
+                float m_RY = Input.GetAxis("Player0_Vertical2");
+
+                float Angle = Mathf.Atan2(m_RX * Time.deltaTime, m_RY * Time.deltaTime);
+
+                transform.rotation = Quaternion.EulerAngles(0, Angle, 0);
+
             }
 
             if (m_Player01 == true)
