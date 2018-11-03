@@ -12,14 +12,16 @@ namespace StoelenDans
         public float m_WalkingSpeed = 10.0f;
         public float m_TurnSpeed = 10;
 
-        private void Update()
+        private void FixedUpdate()
         {
             if (m_Player00 == true)
             {
                 float m_AxisX0 = Input.GetAxis("Player0_Horizontal");
                 float m_AxisY0 = Input.GetAxis("Player0_Vertical");
 
-                transform.Translate(m_AxisX0 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY0 * Time.deltaTime * m_WalkingSpeed, Space.World);
+                GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 1) * -1;// new Vector3(m_AxisX0 * m_WalkingSpeed, 0, m_AxisY0 * m_WalkingSpeed);
+
+                //transform.Translate(m_AxisX0 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY0 * Time.deltaTime * m_WalkingSpeed, Space.World);
 
                 float m_RX = Input.GetAxis("Player0_Horizontal2");
                 float m_RY = Input.GetAxis("Player0_Vertical2");
