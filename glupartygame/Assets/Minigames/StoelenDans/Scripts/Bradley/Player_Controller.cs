@@ -27,6 +27,9 @@ namespace StoelenDans
                 float m_RX0 = Input.GetAxis("Player0_Horizontal2");
 
                 m_Player.Rotate(0, m_RX0 * m_TurnSpeed, 0);
+
+                bool m_PushA = Input.GetButton("Player0_A");
+                bool m_SitY = Input.GetButton("Player0_Y");
             }
 
             if (m_Player01 == true)
@@ -39,6 +42,9 @@ namespace StoelenDans
                 float m_RX1 = Input.GetAxis("Player1_Horizontal2"); ;
 
                 m_Player.Rotate(0, m_RX1 * m_TurnSpeed, 0);
+
+                bool m_PushA = Input.GetButton("Player1_A");
+                bool m_SitY = Input.GetButton("Player1_Y");
             }
 
 
@@ -52,6 +58,9 @@ namespace StoelenDans
                 float m_RX2 = Input.GetAxis("Player2_Horizontal2");
 
                 m_Player.Rotate(0, m_RX2 * m_TurnSpeed, 0);
+
+                bool m_PushA = Input.GetButton("Player2_A");
+                bool m_SitY = Input.GetButton("Player2_Y");
             }
 
             if (m_Player03 == true)
@@ -64,6 +73,9 @@ namespace StoelenDans
                 float m_RX3 = Input.GetAxis("Player3_Horizontal2");
 
                 m_Player.Rotate(0, m_RX3 * m_TurnSpeed, 0);
+
+                bool m_PushA = Input.GetButton("Player3_A");
+                bool m_SitY = Input.GetButton("Player3_Y");
             }
         }
     }
