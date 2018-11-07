@@ -4,19 +4,6 @@ using UnityEngine;
 
 namespace StoelenDans
 {
-<<<<<<< HEAD
-
-	void Start ()
-    {
-		
-	}
-	
-	void Update ()
-    {
-		
-	}
-}
-=======
     public class Player_Controller : MonoBehaviour
     {
         [SerializeField]
@@ -87,4 +74,3 @@ namespace StoelenDans
     }
 
 }
->>>>>>> Bradley
