@@ -17,12 +17,12 @@ namespace StoelenDans
 
         private void FixedUpdate()
         {
-            if (m_Player00 == true)
+            if (m_Player00 == true) 
             {
-                float m_AxisX0 = Input.GetAxis("Player0_Horizontal");
-                float m_AxisY0 = Input.GetAxis("Player0_Vertical");
+                float m_AxisX0 = Input.GetAxis("Player0_Vertical");
+                float m_AxisY0 = Input.GetAxis("Player0_Horizontal");
 
-                transform.Translate(m_AxisX0 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY0 * Time.deltaTime * m_WalkingSpeed, Space.World);
+                transform.Translate(m_AxisX0 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY0 * Time.deltaTime * m_WalkingSpeed * -1, Space.World);
 
                 float m_RX0 = Input.GetAxis("Player0_Horizontal2");
 
@@ -34,10 +34,10 @@ namespace StoelenDans
 
             if (m_Player01 == true)
             {
-                float m_AxisX1 = Input.GetAxis("Player1_Horizontal");
-                float m_AxisY1 = Input.GetAxis("Player1_Vertical");
+                float m_AxisX1 = Input.GetAxis("Player1_Vertical");
+                float m_AxisY1 = Input.GetAxis("Player1_Horizontal");
 
-                transform.Translate(m_AxisX1 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY1 * Time.deltaTime * m_WalkingSpeed, Space.World);
+                transform.Translate(m_AxisX1 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY1 * Time.deltaTime * m_WalkingSpeed * -1, Space.World);
 
                 float m_RX1 = Input.GetAxis("Player1_Horizontal2"); ;
 
@@ -50,10 +50,10 @@ namespace StoelenDans
 
             if (m_Player02 == true)
             {
-                float m_AxisX2 = Input.GetAxis("Player2_Horizontal");
-                float m_AxisY2 = Input.GetAxis("Player2_Vertical");
+                float m_AxisX2 = Input.GetAxis("Player2_Vertical");
+                float m_AxisY2 = Input.GetAxis("Player2_Horizontal");
 
-                transform.Translate(m_AxisX2 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY2 * Time.deltaTime * m_WalkingSpeed, Space.World);
+                transform.Translate(m_AxisX2 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY2 * Time.deltaTime * m_WalkingSpeed * -1, Space.World);
 
                 float m_RX2 = Input.GetAxis("Player2_Horizontal2");
 
@@ -65,10 +65,10 @@ namespace StoelenDans
 
             if (m_Player03 == true)
             {
-                float m_AxisX3 = Input.GetAxis("Player3_Horizontal");
-                float m_AxisY3 = Input.GetAxis("Player3_Vertical");
+                float m_AxisX3 = Input.GetAxis("Player3_Vertical");
+                float m_AxisY3 = Input.GetAxis("Player3_Horizontal");
 
-                transform.Translate(m_AxisX3 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY3 * Time.deltaTime * m_WalkingSpeed, Space.World);
+                transform.Translate(m_AxisX3 * Time.deltaTime * m_WalkingSpeed * -1, 0, m_AxisY3 * Time.deltaTime * m_WalkingSpeed * -1, Space.World);
 
                 float m_RX3 = Input.GetAxis("Player3_Horizontal2");
 

@@ -17,7 +17,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
-    <UnityVersion>5.0.0f4</UnityVersion>
+    <UnityVersion>2018.2.7f1</UnityVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -25,7 +25,7 @@
     <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_7;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,7 +33,7 @@
     <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_7;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -49,15 +49,302 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>Library\UnityAssemblies\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>Library\UnityAssemblies\Unity.Locator.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>Library\UnityAssemblies\UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>Library\UnityAssemblies\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>Library\UnityAssemblies\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>Library\UnityAssemblies\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>Library\UnityAssemblies\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>Library\UnityAssemblies\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>Library\UnityAssemblies\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>Library\UnityAssemblies\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>Library\UnityAssemblies\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="XInputDotNetPure">
+      <HintPath>Assets\Plugins\x86\XInputDotNetPure.dll</HintPath>
+    </Reference>
+    <Reference Include="XInputDotNetPure">
+      <HintPath>Assets\Plugins\x86_64\XInputDotNetPure.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Packages\com.unity.ads\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Packages\com.unity.analytics\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Packages\com.unity.purchasing\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>Packages\com.unity.standardevents\UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Bradley\Player_Controller.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Beer\DemoResources\Scripts\SpillController.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Cubes\DemoResources\Scripts\CubeSpawn.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Cubes\DemoResources\Scripts\RandomRotation.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\CameraAnimator.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\CylinderManager.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\FishAnimator.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\FlaskAnimator.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\PortalAnimator.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\SpotlightAnimator.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Exhibition\DemoResources\Scripts\VerticalBounce.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Forces\DemoResources\Scripts\RandomMove.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Potion\DemoResources\Scripts\RotateLight.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Scripts\LiquidVolume.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\Advanced.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\BierTap.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\BillBoard.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\GameManager.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\Health.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\LookDecision.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\PlayerGlass.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\StateController.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\Stoel.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\TapPad.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\TempPlayer.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Normal Scripts\Transition.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\Action.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\ActiveStatDecision.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\AttackAction.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\ChaseAction.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\Decision.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\PourAction.cs" />
+    <Compile Include="Assets\Minigames\StoelenDans\Scripts\Waldo\ScriptableObjects\State.cs" />
     <Compile Include="Assets\Minigames\TemplateMinigame\Scripts\TemplateGameManager.cs" />
+    <Compile Include="Assets\Scripts\BoardInputHandler.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
     <Compile Include="Assets\Scripts\GlobalGameManager.cs" />
-    <Compile Include="Assets\Scripts\InputHandler.cs" />
+    <Compile Include="Assets\Scripts\InputManager\ControllerInput.cs" />
+    <Compile Include="Assets\Scripts\InputManager\InputManager.cs" />
     <Compile Include="Assets\Scripts\MinigameManager.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\Pawn.cs" />
@@ -68,6 +355,28 @@
     <Compile Include="Assets\Scripts\Utility\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\Utility\UIHover.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Beer\DemoResources\Textures\readme.txt" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Potion\DemoResources\Prefabs\Readme.txt" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Demos\Potion\NonCapped\Readme.txt" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Prefabs\Readme.txt" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeBlur.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeBump.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeDefault.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeDefaultNoFlask.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeReflections.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeSimple.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeSmoke.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeZWriteBack.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LiquidVolumeZWriteFront.shader" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVBlur.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVBlurPass.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVLiquidPass3D.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVLiquidPass3DSmoke.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVLiquidPassBase.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVLiquidPassSimple.cginc" />
+    <None Include="Assets\Minigames\StoelenDans\Scripts\Waldo\Fluid Volume\Resources\Shaders\LVShadowPass.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
