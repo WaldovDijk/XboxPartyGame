@@ -15,6 +15,7 @@ namespace StoelenDans
         public LiquidVolume GlassVolume
         {
             get { return m_GlassVolume; }
+            set { m_GlassVolume = value; }
         }
 
         // Use this for initialization
