@@ -6,18 +6,21 @@ namespace StoelenDans
 {
     public class Player_Controller : MonoBehaviour
     {
+
         [SerializeField]
         private bool m_Player00, m_Player01, m_Player02, m_Player03;
 
         [SerializeField]
-        public Transform m_Player;
+        private Transform m_Player;
 
-        public float m_WalkingSpeed = 10.0f;
-        public float m_TurnSpeed = 10;
+        [SerializeField]
+        private float m_WalkingSpeed = 10.0f;
+        [SerializeField]
+        private float m_TurnSpeed = 10;
 
         private void FixedUpdate()
         {
-            if (m_Player00 == true) 
+            if (m_Player00 == true)
             {
                 float m_AxisX0 = Input.GetAxis("Player0_Vertical");
                 float m_AxisY0 = Input.GetAxis("Player0_Horizontal");
@@ -30,6 +33,9 @@ namespace StoelenDans
 
                 bool m_PushA = Input.GetButton("Player0_A");
                 bool m_SitY = Input.GetButton("Player0_Y");
+
+                //if (m_PushA)
+                Push("Tag 0");
             }
 
             if (m_Player01 == true)
@@ -45,6 +51,9 @@ namespace StoelenDans
 
                 bool m_PushA = Input.GetButton("Player1_A");
                 bool m_SitY = Input.GetButton("Player1_Y");
+
+                if (m_PushA)
+                    Push("Tag 1");
             }
 
 
@@ -61,6 +70,9 @@ namespace StoelenDans
 
                 bool m_PushA = Input.GetButton("Player2_A");
                 bool m_SitY = Input.GetButton("Player2_Y");
+
+                if (m_PushA)
+                    Push("Tag 2");
             }
 
             if (m_Player03 == true)
@@ -76,7 +88,32 @@ namespace StoelenDans
 
                 bool m_PushA = Input.GetButton("Player3_A");
                 bool m_SitY = Input.GetButton("Player3_Y");
+
+                if (m_PushA)
+                    Push("Tag 3");
             }
+           
+        }
+        void Push(string CurrentPlayer)
+        {
+            RaycastHit _ObjectHit;
+
+            Debug.DrawLine(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y+2f, gameObject.transform.position.z), new Vector3(gameObject.transform.position.x + 3f, gameObject.transform.position.y + 2f, gameObject.transform.position.z), Color.green);
+            if (Physics.Linecast(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1f), new Vector3(gameObject.transform.position.x + 3f, gameObject.transform.position.y + 2f, gameObject.transform.position.z), out _ObjectHit, 3))
+            {
+                if(_ObjectHit.transform.gameObject.tag != CurrentPlayer)
+                {
+                    _ObjectHit.transform.gameObject.GetComponent<Player_Controller>().Pushed(Quaternion.Euler(gameObject.transform.rotation.x,gameObject.transform.rotation.y,gameObject.transform.rotation.z));
+                }
+                Debug.Log(_ObjectHit.transform.gameObject.tag);
+            }
+        }
+        void Pushed(Quaternion ObjectRotation)
+        {
+            
+
+            gameObject.GetComponent<Rigidbody>().AddForce(ObjectRotation * Vector3.back * 4f);
         }
     }
 }
+

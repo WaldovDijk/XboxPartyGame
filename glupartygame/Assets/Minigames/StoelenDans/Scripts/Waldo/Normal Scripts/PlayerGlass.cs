@@ -12,6 +12,10 @@ namespace StoelenDans
         private GameObject m_Glass;
 
         private LiquidVolume m_GlassVolume;
+        public LiquidVolume GlassVolume
+        {
+            get { return m_GlassVolume; }
+        }
 
         // Use this for initialization
         void Start()
